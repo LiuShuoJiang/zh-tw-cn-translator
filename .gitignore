@@ -1,0 +1,29 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (for any future tooling)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node (for any future tooling)
+node_modules/
+
+# Temporary chunk directories created by the skill during translation
+chunks/
+.ht_anno_*
+
+# Build artifacts (none currently, but reserved)
+build/
+dist/

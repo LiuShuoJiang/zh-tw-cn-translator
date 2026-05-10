@@ -1,0 +1,9 @@
+# Force LF line endings for all text files across all platforms.
+# This skill is a documentation/markdown repo with Chinese text, where
+# inconsistent line endings can break terminal rendering and diff tools.
+* text=auto eol=lf
+
+# Treat these as text explicitly to avoid any platform auto-detection drift.
+*.md   text eol=lf
+*.txt  text eol=lf
+LICENSE text eol=lf
