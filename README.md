@@ -46,7 +46,7 @@ Off-the-shelf converters (OpenCC, browser extensions) operate at the character l
 Clone (or copy) this repo into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/<your-username>/zh-tw-cn-translator.git \
+git clone https://github.com/LiuShuoJiang/zh-tw-cn-translator.git \
     ~/.claude/skills/zh-tw-cn-translator
 ```
 
