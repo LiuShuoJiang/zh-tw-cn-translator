@@ -3,18 +3,21 @@
 Source: L10N TW Community (Taiwan Free/Open Source Software Localization Community)
 
 ## Table of Contents
-- [Computer Architecture & Hardware](#computer-architecture--hardware)
-- [Programming & Software Engineering](#programming--software-engineering)
-- [Data Structures & Algorithms](#data-structures--algorithms)
-- [Networking & Internet](#networking--internet)
-- [Operating Systems](#operating-systems)
-- [Number Representation](#number-representation)
-- [User Interface & General Computing](#user-interface--general-computing)
-- [Security & Cryptography](#security--cryptography)
-- [Probability & Statistics](#probability--statistics)
-- [Physics & Thermodynamics](#physics--thermodynamics)
-- [Measurement & Engineering](#measurement--engineering)
-- [General Academic Writing](#general-academic-writing)
+
+- [CS/IT Terminology: Taiwan Traditional Chinese ↔ Mainland Simplified Chinese](#csit-terminology-taiwan-traditional-chinese--mainland-simplified-chinese)
+  - [Table of Contents](#table-of-contents)
+  - [Computer Architecture \& Hardware](#computer-architecture--hardware)
+  - [Programming \& Software Engineering](#programming--software-engineering)
+  - [Data Structures \& Algorithms](#data-structures--algorithms)
+  - [Networking \& Internet](#networking--internet)
+  - [Operating Systems](#operating-systems)
+  - [Number Representation](#number-representation)
+  - [User Interface \& General Computing](#user-interface--general-computing)
+  - [Security \& Cryptography](#security--cryptography)
+  - [Probability \& Statistics](#probability--statistics)
+  - [Physics \& Thermodynamics](#physics--thermodynamics)
+  - [Measurement \& Engineering](#measurement--engineering)
+  - [General Academic Writing](#general-academic-writing)
 
 ---
 

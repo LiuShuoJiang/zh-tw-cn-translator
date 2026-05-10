@@ -63,25 +63,39 @@ For documents under 150 lines, translation can be done in a single pass.
 For each chunk, apply these transformations in order:
 
 #### 4a. Terminology Mapping (MOST IMPORTANT)
+
 Apply domain-specific terminology conversions from the reference table. This is the step that distinguishes professional translation from naive conversion. Key categories:
 
 **Computer Architecture**: 位元→位, 位元組→字节, 暫存器→寄存器, 記憶體→内存
+
 **Programming**: 函式→函数, 程式→程序, 變數→变量, 陣列→数组, 指標→指针
+
 **Networking**: 網際網路→互联网, 網路→网络, 協定→协议, 封包→数据包
+
 **OS/Systems**: 作業系統→操作系统, 核心→内核, 執行緒→线程, 行程→进程
+
 **Number Representation**: 一補數→反码, 二補數→补码, 溢位→溢出, 進位(numeral)→进制
+
 **Software Engineering**: 實作→实现, 最佳化→优化, 相容→兼容, 演算法→算法
+
 **Probability & Statistics**: 機率→概率, 變異數→方差, 分佈→分布, 信賴區間→置信区间, 動差→矩
+
 **Physics**: 熱力學→热力学, 相空間→相空间, 微觀→微观, 巨觀/宏觀→宏观
+
 **Measurement & Engineering**: 量測→测量, 效能→性能, 延遲→延迟, 抖動→抖动, 追蹤→跟踪
+
 **Security**: 金鑰→密钥, 憑證→证书, 資安→信息安全
+
 **Academic writing**: 透過→通过, 迴圈→循环
 
 #### 4b. Character Conversion
+
 Apply standard Traditional ↔ Simplified character conversion for all remaining text:
+
 這→这, 個→个, 們→们, 對→对, 關→关, 與→与, 從→从, 發→发, 開→开, 為→为, etc.
 
 #### 4c. Markdown Cleanup (if requested)
+
 If the source uses non-standard markdown (common in HackMD/CodiMD documents):
 - `:::success` ... `:::` → blockquote with bold header
 - `:::info` ... `:::` → blockquote with bold header
@@ -92,6 +106,7 @@ If the source uses non-standard markdown (common in HackMD/CodiMD documents):
 - Emoji shortcodes like `:notes:` → remove or replace
 
 #### 4d. Preservation Rules
+
 - Keep ALL code blocks exactly as-is (do not translate code)
 - Keep ALL LaTeX math expressions as-is
 - Keep ALL URLs and image references as-is
@@ -153,6 +168,7 @@ Report to the user:
 ## Direction: Simplified → Traditional
 
 When translating in the reverse direction (Mainland → Taiwan), apply the terminology table in reverse. Additional considerations:
+
 - 内存 → 記憶體 (not just 記憶体)
 - 补码 → 二補數 (not 補碼, unless targeting Hong Kong readers)
 - 算法 → 演算法
